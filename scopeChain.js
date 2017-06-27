@@ -32,18 +32,21 @@ console.log(myVar);
 
 // Given example on StackOverflow
 var currentScope = 0; // global scope
-(function () {
-  var currentScope = 1, one = 'scope1';
-  alert(currentScope);
-  (function () {
-    var currentScope = 2, two = 'scope2';
-    alert(currentScope);
-    (function () {
-      var currentScope = 3, three = 'scope3';
+function a () {
+   var currentScope = 1, one = 'scope1';
+   alert(currentScope);
+
+  function b () {
+      var currentScope = 2, two = 'scope2';
       alert(currentScope);
-      alert(one + two + three); // climb up the scope chain to get one and two
-    }());
-  }());
-}());
 
-
+      function c () {
+         var currentScope = 3, three = 'scope3';
+         alert(currentScope);
+  alert(one + two + three); // climb up the scope chain to get one and two
+     }
+     c();
+  }
+  b();
+}
+a();
