@@ -10,3 +10,5 @@ function greetMe(){
     return "Hello Buddy!";
 }
 var x = 100;
+
+// JavaScript variables are by default is undefined. 
