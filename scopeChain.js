@@ -43,7 +43,7 @@ function a () {
       function c () {
          var currentScope = 3, three = 'scope3';
          alert(currentScope);
-  alert(one + two + three); // climb up the scope chain to get one and two
+         alert(one + two + three); // climb up the scope chain to get one and two
      }
      c();
   }
