@@ -6,8 +6,6 @@
  */
 
 
-
-
 /**
  * Example 1:- Syntax and the usage of the methods
  * 
