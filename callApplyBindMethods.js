@@ -67,6 +67,5 @@ console.log(user.getFullName.apply(user2));
 function multiply(x, y){
 	return x * y;
 }
-
 var multiplyByTwo = multiply.bind(this, 2);
 console.log(multiplyByTwo(6));
