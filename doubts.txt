@@ -1,0 +1,5 @@
+	1. What is the difference between __proto__ and .prototype?
+	2. What is the difference between these 2 following statements ?
+        a) var tarun = object.create(person);   
+        b) var tarun.prototype = object.create(person.prototype);
+

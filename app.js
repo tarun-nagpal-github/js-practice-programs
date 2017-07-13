@@ -34,9 +34,9 @@ var cube = function (x){
 };
 
 // Binding the functions
-var add10   =  sum.bind(this, 10);
-var minus10 =  sub.bind(this, 1);
-var mul10   =  mul.bind(this, 10);
+var add10      =  sum.bind(this, 10);
+var minus10    =  sub.bind(this, 1);
+var mul10      =  mul.bind(this, 10);
 var divide10   =  divide.bind(this, 10);
 
 // Original Array
@@ -68,3 +68,20 @@ console.log(arrayMul10);
 
 console.log("----- Array Divide10 --- ");
 console.log(arrayDivide10);
+
+// Underscore start here
+console.log("Underscore start here Works");
+
+// Map function 
+var arraySquaredUnderscore = _.map(myArray, square);
+console.log("_map function");
+console.log(arraySquaredUnderscore);
+
+// Unique function 
+var uniqTest = _.uniq([1,5,4,4,5,2,1,1,3,2,2,3,4,1]); 
+console.log("_uniq function");
+console.log(uniqTest);
+
+
+
+ 
