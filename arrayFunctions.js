@@ -28,3 +28,18 @@ reverseArrayInPlace(arrayValue);
 
 console.log(reverseArray(["A", "B", "C"]));
 console.log(arrayValue);
+
+
+// Filter function
+
+// Actual array 
+var rollNo = [1,2,3,4,5,6,7,8,9,10];
+
+/**
+* Condition function 
+*/
+function getEven(number) {
+   return number % 2 === 0;  
+}
+// Filter function implemented 
+rollNo.filter(getEven);
