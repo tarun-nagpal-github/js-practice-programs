@@ -24,3 +24,10 @@ myFullName("Nagpal");
  * its local variables are no longer needed and are usually blown out of memory.
  * This is how we normally expect things to work.
  */
+function sayHello2(name) {
+  var text = 'Hello ' + name; // Local variable
+  var say = function() { console.log(text); }
+  return say;
+}
+var say2 = sayHello2('Bob');
+say2(); // logs "Hello Bob"
