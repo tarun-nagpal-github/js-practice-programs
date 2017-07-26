@@ -1,4 +1,7 @@
 /**
+ *  A closure is the combination of a function and the lexical environment within which that function was declared. 
+ *  This environment consists of any local variables that were in-scope at the time that the closure was created. 
+ *	
  *  A closure is a persistent scope which holds on to local variables even after the code execution has moved out of that block. 
  *  Languages which support closure (such as JavaScript, Swift and Ruby) will allow you to keep a reference to a scope 
  *  (including its parent scopes), even after the block in which those variables were declared has finished executing,
