@@ -32,5 +32,8 @@ function sayHello2(name) {
   var say = function() { console.log(text); }
   return say;
 }
+/* Testing the comment Please ignore */
+
 var say2 = sayHello2('Bob');
 say2(); // logs "Hello Bob"
+
