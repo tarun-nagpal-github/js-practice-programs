@@ -27,13 +27,13 @@ myFullName("Nagpal");
  * its local variables are no longer needed and are usually blown out of memory.
  * This is how we normally expect things to work.
  */
-function sayHello2(name) {
+function sayHelloMethod(name) {
   var text = 'Hello ' + name; // Local variable
   var say = function() { console.log(text); }
   return say;
 }
 /* Testing the comment Please ignore */
 
-var say2 = sayHello2('Bob');
+var say2 = sayHelloMethod('Bob');
 say2(); // logs "Hello Bob"
 
