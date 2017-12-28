@@ -1,0 +1,44 @@
+
+
+***************** JavaScript **********************
+
+What are closures?
+ https://github.com/tarun-nagpal-github/js-practice-programs/blob/master/closure.js
+
+What are design patterns in JavaScript?
+
+Design pattern is a general repeatable solution to a commonly occurring problem in software design.
+
+What is filter, join and split function in JavaScript ?
+https://github.com/tarun-nagpal-github/js-practice-programs
+
+What are various Array functions ?
+
+How to Implement Interfaces in JavaScript?
+
+Set time out function ?
+
+Create counter using javascript?
+
+Diff bw classical vs prototype inheritance ?
+
+Why undefined === null is false
+
+
+*****************Angular **********************
+
+Difference between factory and service and provider ?
+
+Find unique elements in ng-repeat ?
+
+What is callback hell and how to avoid it ?
+
+***************** Data Structure **********************
+
+Find unique elements in Array ?
+
+
+
+
+
+
