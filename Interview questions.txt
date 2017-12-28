@@ -5,9 +5,43 @@
 What are closures?
  https://github.com/tarun-nagpal-github/js-practice-programs/blob/master/closure.js
 
+At first glance, a closure is simply a function defined within another function. 
+However, the power of closures is derived from the fact that the inner function remembers the environment in which it was created. 
+In other words, the inner function has access to the outer function’s variables and parameters.
+
+Benefits of Closures ?
+
+1. Function factories
+2. Namespacing private functions
+
+
 What are design patterns in JavaScript?
 
 Design pattern is a general repeatable solution to a commonly occurring problem in software design.
+Another way of looking at patterns are as templates for how we solve problems - ones which can be used in quite a few different situations.
+
+Design patterns have three main benefits:
+
+1. Patterns are proven solutions: They provide solid approaches to solving issues in software development using proven techniques that reflect the experience and insights the developers that helped define them bring to the pattern.
+
+2. Patterns can be easily reused: A pattern usually reflects an out of the box solution that can be adapted to suit our own needs. This feature makes them quite robust.
+
+3. Patterns can be expressive: When we look at a pattern there’s generally a set structure and vocabulary to the solution presented that can help express rather large solutions quite elegantly.
+
+What are various design pattrens in JS ?
+
+1. Module Design Pattern - JavaScript modules are the most prevalently used design patterns for keeping particular pieces of code independent of other components.
+Modules are JavaScript "classes".
+
+https://scotch.io/bar-talk/4-javascript-design-patterns-you-should-know#toc-module-design-pattern 
+
+
+2. Prototype Design Pattern - The Prototype design pattern relies on the JavaScript prototypical inheritance. The objects created are clones (shallow clones) of the original object that are passed around. 
+
+3. Singleton - 	A class of which only a single instance can exist.
+
+4. Observer 
+	Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 
 What is filter, join and split function in JavaScript ?
 https://github.com/tarun-nagpal-github/js-practice-programs
@@ -24,6 +58,31 @@ Diff bw classical vs prototype inheritance ?
 
 Why undefined === null is false
 
+
+What is hoisting in JavaScript ?
+https://developer.mozilla.org/en-US/docs/Glossary/Hoisting 
+
+What is the diffrence between Undefined vs NULL?
+
+Undefined means the variable has been declared but its value is not defined.
+null is an assigned value that have no value at all.
+
+Unassigned variables are initialized by JavaScript with a default value of undefined. 
+JavaScript never sets a value to null. That must be done programmatically.
+
+What is CROS ?
+
+How http work internally ?
+
+What is callback hell and how to avoid it ?
+
+What are promises in JavaScript ?
+
+What is event capturing and bubbling ?
+
+What is the diffrence between call, apply and bind?
+
+How to check if a variable is Array ?
 
 *****************Angular **********************
 

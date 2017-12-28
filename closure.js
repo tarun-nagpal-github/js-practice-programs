@@ -11,6 +11,7 @@
 
 /**
  * Typical Example of closure.
+ * It is a factory function craeted with the help of closure
  * @param {*} firstName 
  */
 function fullName(firstName) {
